@@ -15,3 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+git clone https://github.com/BoringCat/luci-app-mentohust package/myapp/luci-app-mentohust
+
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk package/myapp/MentoHUST-OpenWrt-ipk
